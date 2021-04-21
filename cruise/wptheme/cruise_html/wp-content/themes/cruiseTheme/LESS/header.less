@@ -1,0 +1,34 @@
+/* header css */
+header {
+  background-color: #c7deff;
+  @media only screen and (max-width: 1230px) {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+  }
+  .headerContent {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 740px) {
+      height: auto;
+      padding-top: 3rem;
+    }
+    .logo {
+      max-width: 15rem;
+      padding: 1rem 0 1rem 0;
+    }
+    .phoneNum {
+      display: flex;
+      align-self: flex-end;
+      font-size: 4rem;
+      padding-bottom: 1rem;
+      text-decoration: none;
+      color: #4d5c71;
+      @media only screen and (max-width: 740px){
+        display: none;
+      }
+    }
+  }
+}

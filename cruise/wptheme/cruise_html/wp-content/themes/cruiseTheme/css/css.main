@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* css starts here: */
+/* layout */
+/* header css */
+header {
+  background-color: #c7deff;
+}
+header .headerContent {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .headerContent .logo {
+  max-width: 15rem;
+  padding: 1rem 0 1rem 0;
+}
+header .headerContent .phoneNum {
+  display: flex;
+  align-self: flex-end;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: #4d5c71;
+}
+nav {
+  background-color: #4d5c71;
+}
+nav .clearfix {
+  overflow: auto;
+}
+nav .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+nav .navBar {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .navBar ul {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: row;
+}
+nav .navBar ul li {
+  padding: 1rem 2rem 1rem 0;
+}
+nav .navBar ul li a {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
+  color: #fadfaa;
+}
+nav .navBar ul li a:hover {
+  color: #aacbfa;
+}
+nav .searchBar {
+  display: flex;
+}
+nav .searchBar .search {
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 15rem;
+  margin: 0.2rem;
+  margin-right: 0;
+  transition: 1s;
+}
+nav .searchBar .search:focus {
+  width: 23rem;
+  transition: 1s;
+}
+nav .searchBar .searchBtn {
+  border-radius: 0 0.5rem 0.5rem 0;
+  outline: none;
+  margin: 0.2rem;
+  margin-left: -0.2rem;
+}
+.center {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.center .blogArea {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.center .blogArea .blogPost {
+  position: relative;
+  width: 26rem;
+}
+.center .blogArea .blogPost img {
+  width: 100%;
+  opacity: 0.75;
+  transition: 1s;
+}
+.center .blogArea .blogPost img:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.center .blogArea .title {
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  top: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+.center .blogArea .date {
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  bottom: 0rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+/* variables */
