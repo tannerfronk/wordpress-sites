@@ -13,10 +13,9 @@
 </head>
 
 <body>
-<div>
-    <nav class="navbar container" role="navigation" aria-label="main navigation">
+    <nav class="navbar container is-light" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://github.com/Poruno/Bulma-Navwalker">
+            <a class="navbar-item" href="http://www.dreamervacations.tannerjfronk.com/">
                 <img class="brand-image" src="<?php echo get_template_directory_uri(); ?>/images/logo2.png" alt="Dreamer Vacations Logo"/>
                 &nbsp;Dreamer Vacations LLC
             </a>
@@ -41,11 +40,10 @@
         ?>
               <div class="navbar-end">
               <div class="navbar-item">
-                  <div class="tile mx-6 is-mobile">
-                    <input class="input mr-2 mb-2" type="text" placeholder="Search...">
-                    <button class="button is-dark">Search</button>
+                  <div class="tile is-mobile">
+                    <input class="input mr-2 my-2" type="text" placeholder="Search...">
+                    <button class="button is-dark mt-2">Search</button>
                     </div>
               </div>
               </div>
     </nav>
-</div>
